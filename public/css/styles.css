@@ -1,0 +1,106 @@
+site_title {
+	color: #000080;
+	font-family: Georgia, serif;
+	text-shadow: white 4px 0 10px;
+}
+
+.page_title {
+	margin: 6px auto 6px auto;
+	color: #000080;
+	font-family: Georgia, serif;
+	text-align: center;
+}
+
+.menu {
+	list-style-type: none;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 8px;
+	background-color: #696969;
+	padding: 0;
+}
+
+.menu li {
+	display: inline;
+}
+
+.menu a {
+	display: inline-block;
+	color: #00ced1;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.menu a:hover,
+.drop a:hover {
+	background-color: #000080;
+}
+
+.menu .active {
+	background-color: #000000;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.drop {
+	display: none;
+	position: absolute;
+	background-color: #696969;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	text-align: left;
+	z-index: 1;
+}
+
+.drop a {
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown:hover .drop {
+	display: block;
+}
+
+
+html {
+	background-color: #000000;
+}
+
+body {
+	background-color: #808080;
+	color: #000000;
+	margin-left: 4vw;
+	margin-right: 4vw;
+	border: 2px solid #696969;
+	padding: 6px;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-size: 16pt;
+	text-indent: 0;
+	text-align: left;
+}
+
+object {
+	display: block;
+	margin: 0 auto;
+	width: 80vw;
+	height: 800px;
+}
+
+video {
+	display: block;
+	margin: 0 auto;
+	width: 80vw;
+	height: 60vh;
+}
+
+footer {
+	font-weight: bold;
+	font-size: 10pt;
+}
+
